@@ -1,3 +1,24 @@
 .shopping-items-wrapper {
   min-width: 100%;
 }
+
+.items-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.change-quantity {
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.add-item {
+  background-color: forestgreen;
+  color: white;
+}
+
+.remove-item {
+  background-color: burlywood;
+  color: white;
+}
