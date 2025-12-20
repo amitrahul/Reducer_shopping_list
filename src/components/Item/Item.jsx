@@ -1,3 +1,4 @@
+import React from "react";
 import "./item.css";
 function Item({ itemName, quantity }) {
   return (
@@ -8,4 +9,4 @@ function Item({ itemName, quantity }) {
   );
 }
 
-export default Item;
+export default React.memo(Item);
