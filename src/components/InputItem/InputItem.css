@@ -1,4 +1,4 @@
-.item-input-wrapper {
+.item-input-wrapper > form {
   display: flex;
   width: 400px;
 }
