@@ -12,6 +12,9 @@
   padding: 1rem;
   border-radius: 100%;
 }
+.change-quantity:hover {
+  color: black;
+}
 
 .add-item {
   background-color: forestgreen;
